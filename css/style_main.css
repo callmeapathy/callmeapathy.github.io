@@ -1,0 +1,75 @@
+@font-face {
+	src: url(../fonts/ProximaNova/ProximaNova-Regular.woff);
+	font-family: ProximaNovaReg;
+}
+
+@font-face {
+	src: url(../fonts/ProximaNova/ProximaNova-Bold.otf);
+	font-family: ProximaNovaBold;
+}
+
+@font-face {
+	src: url(../fonts/ProximaNova/ProximaNova-Light.woff);
+	font-family: ProximaNovaLight;
+}
+
+@font-face {
+	src: url(../fonts/Roboto/Roboto-Light.woff);
+	font-family: RobotoLight;
+}
+
+@font-face {
+	src: url(../fonts/Roboto/Roboto-Regular.ttf);
+	font-family: RobotoRegular;
+}
+
+html {
+	size: 10px;
+}
+
+body {
+
+}
+
+.header {
+	background-color: #76f7f6;
+	height: 65px;
+}
+
+.box {
+	padding-left: 90px;
+	padding-right: 75px;
+}
+
+.header nav {
+	display: flex;
+	line-height: 65px;
+	justify-content: space-around;
+}
+
+.header nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: ProximaNovaReg, sans-serif;
+	color: #000000;
+	font-size: 16px;
+	transition: color 0.4s
+}
+
+.header nav h1 {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: ProximaNovaReg, sans-serif;
+	color: #000000;
+	font-size: 32px;
+	margin-top: auto;
+}
+
+.header nav a:hover {
+	color: #fff;
+}
+
+main {
+	display: inline-block;
+	width: 79%;
+}

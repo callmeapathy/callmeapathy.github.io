@@ -1,0 +1,36 @@
+.slider-1 {
+	width: 700px;
+	margin: 5% auto;
+	border-radius: 10px;
+	background: #ddd;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+	overflow: hidden;
+	text-align: center;
+}
+.controls button {
+	width: 40px;
+	height: 40px;
+	border: 0;
+	border-radius: 50%;
+	background: #666;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	margin: 10px 10px;
+	outline: none;
+}
+
+.controls button:hover {
+	cursor: pointer;
+	color: #ccc;
+	background: #444;
+}
+
+img {
+	width: 100%;
+}
+
+.clock {
+	margin-top: 5%;
+}
